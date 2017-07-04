@@ -117,6 +117,7 @@ form{
 form input{
   width: 25%;
   height: 58px;
+  font-size: 50px;
 }
 form .button{
   height: 100px;
