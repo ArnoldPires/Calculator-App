@@ -11,8 +11,10 @@
 /* LAYOUT
 /*******************************************/
 html {
-  background: url(../img/math.jpg);
-  background-repeat: no-repeat;
+  background: url(../img/math.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 .container, .row {
@@ -45,3 +47,8 @@ button {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+@media only screen and (max-width: 400px) {
+  html {
+    background-size: inherit;
+  }
+}
